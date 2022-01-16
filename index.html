@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="./images/logo-2.jpg" type="jpg">
+    <title>Calculadora de IMC</title>
+</head>
+
+
+<body>
+
+    <header class="header">
+
+    
+    
+        <img class="image-1" src="./images/logo-2.jpg" alt="jpg">
+        <nav>
+            <a class="menu-item" href=""  ><strong>HOME</strong></a>
+            <a class="menu-item" href=""><strong>ALIMENTAÇÃO</strong></a>
+            <a class="menu-item" href=""><strong>SAÚDE</strong></a>
+            <a class="menu-item" href=""><strong>TREINAMENTOS</strong></a>
+            <a class="menu-item" href=""><strong>FALE CONOSCO</strong></a>
+    </nav>
+        <div class="icones">
+            <a class="icon" href=""><img src="./images/icone1.png" ></a>
+            <a class="icon" href=""><img src="./images/icone2.png" ></a>
+            <a class="icon" href=""><img src="./images/icone3.png" ></a>
+
+        </div> 
+
+    </header>
+    <br>
+
+
+
+   <main>
+
+    <div class="all">
+
+
+    <div class="text">
+       <p> <strong>O que é IMC?</strong> <br><br>
+           IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+           <br>
+           <br>
+           <strong>Como é calculado?</strong><br><br>
+           O IMC é a relação entre peso e altura e o cálculo é feito de acordo com a fórmula: IMC = peso / (altura x altura) O peso deve estar em kg e a altura em metros, e o resultado é dado em kg/m2. Depois de obter o resultado, é possível verificar em que faixa o IMC se encontra, podendo indicar:
+                     - Magreza, quando o resultado é menor que 18,5 kg/m2;<br>
+                     - Normal, quando o resultado está entre 18,5 e 24,9 kg/m2;<br>
+                     - Sobrepeso, quando o resultado está entre 24,9 e 30 kg/m2; <br>
+                     - Obesidade, quando o resultado é maior que 30 kg/m2. <br>
+                    Assim, de acordo com o resultado do IMC é possível também saber se existe algum risco de desenvolver doenças.
+                    Caso seu resultado seja fora do normal, procure um médico especialista.</p>
+    </div>
+    
+                
+
+
+   <div class="area">
+
+    <div class="container">
+        <h1>CALCULE SEU IMC AQUI:</h1>
+            <div class="input-area">
+                 <h2>Altura (cm)</h2>
+                 <input id="height" type="number">
+            </div>
+            <div class="input-area">
+                 <h2>Peso (kg)</h2>
+                 <input id="weight" type="number">
+            </div>
+        <button onclick="calculate()">Calcular</button>
+        <div id="resultado"></div>
+        <textarea name="" id="text_area" rows="5"></textarea>
+    </div>
+
+    </div>
+   
+    
+    </main>
+
+
+    <footer>
+        
+        <img class="rodape" src="./images/rodape.jpg" alt="jpg">
+        
+        
+    </footer>
+    <script src="index.js"></script>
+    
+   
+</body>
+
+
+</html>
